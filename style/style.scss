@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 141px;
+  height: 100vh;
+  background-color: #4499fe;
+}
+
+.info_title {
+  margin: 23px;
+  text-align: center;
+  color: #fff;
+}
+.info {
+  display: flex;
+  align-items: center;
+  //   width: 1;
+}
+
+.a {
+  grid-area: a;
+}
+.c {
+  grid-area: c;
+}
+.d {
+  grid-area: d;
+}
+.e {
+  grid-area: e;
+}
+.b {
+  grid-area: b;
+}
+
+.info_section {
+  width: 100%;
+  height: 142px;
+  display: grid;
+  gap: 28px 32px;
+
+  grid-template-areas:
+    "a b c"
+    "d e e";
+  grid-template-columns: 297px 297px 297px;
+  //   width: 100vw;
+}
+.e_input {
+  width: 622px;
+}
+.info_section_input_itself {
+  width: 297px;
+  height: 55px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  background-color: #e9e9e9;
+}
+.e_input {
+  width: 622px;
+}
+
+.info_button {
+  width: 102px;
+  height: 41px;
+  margin-left: 94px;
+  border: none;
+  background-color: #1de755;
+  color: #fff;
+}
+
+.Infoformblink_item {
+  width: 100%;
+  background-color: #fff;
+  height: 220px;
+  padding: 26px 40px 26px 31px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
